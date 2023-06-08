@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.App {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: white;
+  height: 45vh;
+  width: 55vw;
+  color: #282c34;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  font-family: Montserrat;
+  border: none;
+}
+
+#quotation-mark {
+  font-size: 60px;
+}
+
+#text {
+  font-size: 2.5vw;
+  text-align: center;
+  padding-right: 7%;
+  padding-left: 7%;
+}
+
+.author-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 2;
+  text-align: right;
+  margin-right: auto;
+  padding-right: 20px;
+}
+
+#tweet-quote {
+  text-align: left;
+  margin-left: 75px;
+}
+
+#author {
+  font-size: 17px;
+  font-family: Montserrat;
+  grid-column: 4;
+  grid-row: 1;
+}
+
+#new-quote {
+  color: white;
+  font-size: 17px;
+  font-family: Montserrat;
+  background-color: #282c34;
+  border: none;
+  width: 150px;
+  height: 40px;
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.twitter-share-button {
+  text-align: left;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#icon {
+  height: 30px;
+  width: 30px;
+  color: #00acee;
+}
